@@ -8,10 +8,131 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>让简历有点色彩</title>
-		
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				width: 50%;
+				height: auto;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+			#container{
+				width: 75%;
+				padding: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 10px;
+				background-color: bisque;
+			}
+			h1{
+				text-align: center;
+			}
+			#header{
+				width: 100%;
+				height: auto;
+				/*border: 1px solid aquamarine;*/
+			}
+			
+			#main{
+				width: 100%;
+				height: 660px;
+				/*border: 1px solid aquamarine;*/
+				
+			}
+			
+			#name{
+				width: 100%;
+				height: 12%;
+				/*border: 1px solid rosybrown;*/
+			}
+			#self{
+				width: 100%;
+				height: 25%;
+				/*border: 1px solid rosybrown;*/
+			}
+			#practice{
+				width: 100%;
+				height: 30%;
+				/*border: 1px solid rosybrown;*/
+			}
+			#school{
+				width: 100%;
+				height: 25%;
+				/*border: 1px solid rosybrown;*/
+			}
+			
+			.intro{
+				font-size: 18px;
+				color:darkred ;
+			}
+			
+			.introDetail{
+				width: 50%;
+				float: left;
+			}
+			
+			#footer{
+				width: 100%;
+				height: auto;
+				
+			}
+		</style>
 	</head>
 	<body>
-		
-		<h1>Bella</h1>
+		<div id="container">
+			
+			<div id="header">
+				<h1>求职简历</h1>
+			</div>
+			
+			<div id="main">
+				
+				<div id="name">
+					<h3>姓名：xxx</h3>
+					<h3>求职意向：前端工程师</h3>
+				</div>
+				
+				<div id="self">
+					<p class="intro">*个人信息*</p>
+					<p>-----------------------------------------------------------------------------------</p>
+					<div class="introDetail">籍贯：xxxxx</div>
+					<div class="introDetail">现居地：xxxxx</div>
+					<div class="introDetail">政治面貌：xxxxx</div>
+					<div class="introDetail">电话：12345678944</div>
+					<div class="introDetail">出生年月：xxxx-xx-xx</div>
+					<div class="introDetail">邮箱：xxxxx@xxx.com</div>
+				</div>
+			
+				<div id="school">
+					<p class="intro">*毕业院校*</p>
+					<p>-----------------------------------------------------------------------------------</p>
+					<div class="introDetail">毕业时间：xxxxx</div>
+					<div class="introDetail">毕业学校：xxxxx</div>
+					<div class="introDetail">在校专业：xxxxx</div>
+					<div class="introDetail">目前学位：12345678944</div>
+					<div class="introDetail">主要课程：xxxxxxxxxxxxxxxxxxxx</div>
+				</div>
+
+				<div id="practice">
+					<p class="intro">*毕业院校*</p>
+					<p>-----------------------------------------------------------------------------------</p>
+					<div id="p1">
+						<p>时间：xxxx-xx-xx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主题：xx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;担任角色：xx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+						<p>以下是简介：</p>
+						<p>简介1</p>
+						<p>简介2</p>
+					</div>
+				</div>
+
+			</div>
+			
+			<div id="footer">
+				<p>联系电话：12345678912</p>
+				<p>email:xxxx@xxx.com</p>
+			</div>
+			
+		</div>
 	</body>
 </html>
